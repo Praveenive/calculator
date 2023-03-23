@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1 id="title">Calculator</h1>
+    <form name="form" class="form1">
+        <p id="description">Simple</p>
+        <input type="text"  id="result" readonly><br><br>
+        <button type="button" id="7" onclick="getTheData('7')">7</button>
+        <button type="button" id="8" onclick="getTheData('8')">8</button>
+        <button type="button" id="9" onclick="getTheData('9')">9</button>
+        <button type="button" id="add" onclick="getTheData('+')">+</button>
+        <br><br>
+        <button type="button" id="4"onclick="getTheData('4')">4</button>
+        <button type="button" id="5" onclick="getTheData('5')">5</button>
+        <button type="button" id="6" onclick="getTheData('6')">6</button>
+        <button type="button" id="subtract" onclick="getTheData('-')">-</button>
+        <br><br>
+        <button type="button" id="1"onclick="getTheData('1')">1</button>
+        <button type="button" id="2"onclick="getTheData('2')">2</button>
+        <button type="button" id="3"onclick="getTheData('3')">3</button>
+        <button type="button" onclick="getTheData('*')">*</button>
+        <br><br>
+        <button type="button" id="clear" >C</button>
+        <button type="button" onclick="getTheData('0')">0</button>
+        <button type="button" id ="equal" onclick="getTheFullData('=')">=</button>
+          <button type="button" onclick="getTheData('/')">/</button>
+    </form>
+</div>
+       <script src="script.js"></script>
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>    
+</body>
+</html>
